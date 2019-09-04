@@ -1,0 +1,110 @@
+h1 {
+	color: #B37AC8;
+	font-size:20px;
+	text-align: center;
+	margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	
+}
+h2
+	
+ {
+  font-family: 
+  color:#B9A2C1;
+  font-size: 10px;
+  text-align: center;
+}
+body
+{font-family:'Open Sans Condensed', sans-serif;
+font-size:20px;
+font-weight:300;
+color: #B9A2C1;
+text-align: center;
+
+}
+
+img 
+{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	padding:0px;
+	:center;
+}
+
+.FindOutMore
+{color:#B9A2C1;
+	font-family:'Open Sans Condensed', sans-serif;
+}
+
+
+
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #E6E6FA;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 30px;
+}
+a:hover
+{color: black 
+}
+
+.container 
+{
+  width: 800px; 
+  height:400px;  
+  margin: 0 auto; 
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba (0,0,0,.1)
+  border: 1px solid lightgrey;
+  }
+  .card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
