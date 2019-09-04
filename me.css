@@ -2,46 +2,49 @@ h1 {
 	color: #B37AC8;
 	font-size:20px;
 	text-align: center;
-	margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	
+  font-family: 'Poppins', sans-serif; 
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-h2
-	
- {
-  font-family: 
+
+
+
+
+h2 {
+  font-style: thin italic; 
   color:#B9A2C1;
   font-size: 10px;
   text-align: center;
 }
-body
-{font-family:'Open Sans Condensed', sans-serif;
-font-size:20px;
-font-weight:300;
-color: #B9A2C1;
-text-align: center;
 
+.name {
+  font-weight: 10;
 }
 
-img 
-{
+body {
+  font-family:'Poppins', sans-serif;
+  font-size:20px;
+  font-weight:600;
+  color: #B9A2C1;
+  text-align: center;
+  background-color: #F7F7F7;
+}
+
+img {
 	width:60px;
 	height:60px;
 	border-radius:50%;
 	padding:0px;
-	:center;
 }
 
-.FindOutMore
-{color:#B9A2C1;
+#find-out-more {
+  color: #B9A2C1;
 	font-family:'Open Sans Condensed', sans-serif;
 }
 
 
-
-}
 a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -50,28 +53,40 @@ a {
   font-size: 30px;
   padding: 30px;
 }
-a:hover
-{color: black 
+
+a:hover {
+  color: black 
 }
 
-.container 
-{
+.container {
   width: 800px; 
   height:400px;  
   margin: 0 auto; 
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba (0,0,0,.1)
   border: 1px solid lightgrey;
-  }
-  .card-white {
+}
+
+.card-text{
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-white {
   background-color: white;
   padding: 40px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   border-radius: 10px;
   margin: 20px 0px;
-  text-align: center;
-  text-decoration: none;
+  height: 300px;
+  width: 400px;
 }
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 
 .list-inline {
   list-style: none;
@@ -82,10 +97,12 @@ a:hover
 .list-inline li {
   display: inline;
   padding: 10px;
+  text-decoration:none;
 }
 .list-inline i {
   font-size: 50px;
   color: rgb(230, 230, 230);
+  text-decoration: none;
 }
 .list-inline i:hover {
   color: black;
